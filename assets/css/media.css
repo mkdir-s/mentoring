@@ -113,6 +113,9 @@
   .contacts__wrapper {
     justify-content: center;
   }
+  .program__box-img {
+    width: 100%;
+  }
 }
 @media (max-width: 550px) {
   .header__wrapper {
