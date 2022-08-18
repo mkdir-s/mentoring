@@ -336,6 +336,9 @@ body {
   line-height: 24px;
   color: #161513;
 }
+.price__text span {
+  color: #f95133;
+}
 .about__items {
   display: -webkit-box;
   display: -ms-flexbox;
