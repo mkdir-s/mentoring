@@ -287,12 +287,15 @@ body {
   font-size: 23px;
   line-height: 32px;
   letter-spacing: 0.48px;
-  color: #161513;
+  color: #d03d23;
 }
 .awards-left__inform-subtitle {
   font-size: 18px;
   line-height: 24px;
   color: #161513;
+}
+.awards-left__inform-subtitle--block {
+  display: block;
 }
 .awards-left__inform-link {
   font-size: 20px;
@@ -358,7 +361,7 @@ body {
 }
 
 .about__item-title {
-  font-size: 56px;
+  font-size: 50px;
   line-height: 64px;
   color: #161513;
   margin-bottom: 11px;
@@ -476,4 +479,93 @@ body {
   font-size: 14px;
   line-height: 24px;
   color: #F2F1EF;
+}
+
+.program {
+  padding: 30px 0;
+}
+.program__title {
+  background-color: #131313;
+  color: #eee;
+  padding: 5px;
+  font-size: 21px;
+  line-height: 28px;
+  margin-bottom: 50px;
+}
+.program__title::before {
+  content: 'C:/Users/mentoring/curriculum/   ';
+  font-family: monospace;
+  color: #c2bbbb;
+  font-size: 14px;
+}
+.program__title span {
+  display: block;
+}
+
+.program__table {
+  max-width: 880px;
+  margin: 0 auto;
+}
+.program__table-title {
+  background-color: #131313;
+  color: #eee;
+  padding: 3px;
+  font-size: 21px;
+  line-height: 28px;
+  margin-bottom: 20px;
+}
+.program__table-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px 20px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid rgba(195, 190, 190, .2);
+}
+.program__table-subtitle {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 120%;
+  max-width: 300px;
+}
+.program__table-subtitle--orange {
+  color: #f95133;
+  display: block;
+  font-size: 15px;
+}
+.program__table-descr {
+  font-size: 16px;
+  line-height: 130%;
+  max-width: 450px;
+  text-align: right;
+}
+.program__table-title--block {
+  display: block;
+  font-size: 16px;
+  line-height: 21px;
+}
+.program__table-descr--block {
+  display: block;
+}
+.program__table-wrapper--last {
+  margin-bottom: 80px;
+}
+.program__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.program__wp {
+  max-width: 500px;
+  text-align-last: left;
+}
+.program__js {
+  max-width: 500px;
+  text-align: right;
+}
+.program__table-list {
+  padding: 0 10px;
+}
+.program__list-item {
+  font-size: 18px;
+  margin-bottom: 18px;
 }
