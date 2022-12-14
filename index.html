@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>наставничество</title>
+    <link rel="stylesheet" href="assets/css/aos.css">
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/media.css">
 </head>
@@ -21,20 +22,20 @@
                         <li class="header-nav__menu-item"><a class="header-nav__menu-link" href="#price">цена</a></li>
                     </ul>
                 </nav>
-                <a class="header__button" href="#contacts">связаться со мной</a>
+                <a class="header__button button__white" href="#contacts">связаться со мной</a>
             </div>
         </div>
     </header>
     <section class="intro">
         <div class="container">
-            <div class="intro__wrapper">
+            <div class="intro__wrapper" data-aos="flip-up" data-aos-duration="700">
                 <div class="intro__inform">
                     <h1 class="intro__inform-title">привет, я Артём <br> -
                         веб <img src="assets/images/star-icon.svg" alt="star-icon"> разработчик</h1>
                     <p class="intro__inform-text">я являюсь наставником по программированию, который обучил более <span>45</span> студентов. это сайт-объявление о старте <span>5</span> потока обучения студентов.</p>
                     <p class="intro__inform-subtitle">быстро <img src="assets/images/star2-icon.svg" alt="star-icon"> интересно <img src="assets/images/star2-icon.svg" alt="star-icon"> качественно </p>
-                    <a class="intro__inform-button intro__inform-button_black" href="#reasons">почему мне это надо?</a>
-                    <a class="intro__inform-button intro__inform-button_white" href="program.html">посмотреть программу обучения</a>
+                    <a class="intro__inform-button intro__inform-button_black button__black" href="#reasons">почему мне это надо?</a>
+                    <a class="intro__inform-button intro__inform-button_white button__white" href="program.html">посмотреть программу обучения</a>
                 </div>
                 <div class="intro__img">
                     <img src="assets/images/intro-img.png" alt="i'm">
@@ -95,6 +96,19 @@
             </div>
         </div>
     </section>
+    <section class="opening">
+        <div class="container">
+            <div class="opening__wrapper">
+                <div class="opening__info">
+                    <h3 class="opening__info-title">интересует обучение, но сомневаешься?</h3>
+                    <p class="opening__info-descr">не сомневайся. попробуй <span>вводный бесплатный урок лично от меня.</span></p>
+                    <p class="opening__info-descr opening__info-descr--last">в режиме онлайн я расскажу о всём пути изучения веб-разработки (соберу общий пазл), <span>определю твой точный уровень знаний и вектор развития</span>, в котором стоит двигаться.</p>
+                    <a class="header__button opening__button button__white" href="https://t.me/alexeenko">напиши ключевое слово "ввод"</a>
+                </div>
+                <img data-aos="flip-up" data-aos-duration="700" class="opening__info-img" src="assets/images/artem-icon.png" alt="счастливый человек, который прошёл моё обучение :)">
+            </div>
+        </div>
+    </section>
     <section class="program" id="program">
         <div class="container">
             <div class="awards__img"><img src="assets/images/star-icon.svg" alt="star-icon"></div>
@@ -102,7 +116,7 @@
             <div class="program__box">
                 <img class="program__box-img" src="assets/images/program-img.jpg" alt="программа обучения">
             </div>
-            <div class="program__button"><a class="program__link" href="program.html">полная программа</a></div>
+            <div class="program__button"><a class="program__link button__black" href="program.html">полная программа</a></div>
         </div>
     </section>
     <section class="price" id="price">
@@ -110,7 +124,7 @@
             <div class="awards__img"><img src="assets/images/star-icon.svg" alt="star-icon"></div>
             <h2 class="awards__title">цена</h2>
             <p class="price__text">полная программа обучения состоит из <span>11 уроков </span>(остальные опционально), в течение которых человек обучается адаптивной вёрстке сайтов, системе git&github, препроцессорам, созданию слайдеров и анимации, а также натяжке сайтов на Wordpress и языку программирования JavaScript. обучение <span>можно завершить в любой момент</span> </p>
-            <div class="about__items">
+            <div class="about__items" data-aos="zoom-out" data-aos-duration="700">
                 <div class="about__item">
                     <h3 class="about__item-title">900 ₽</h3>
                     <p class="about__item-subtitle">1 урок</p>
@@ -130,11 +144,11 @@
         <div class="container">
             <div class="contacts__wrapper">
                     <p class="contacts__left-title">связь со мной и регистрация на обучение.</p>
-                    <a class="contacts__right-button" href="https://t.me/alexeenko">telegram</a>
+                    <a class="contacts__right-button button__black" href="https://t.me/alexeenko">telegram</a>
             </div>
             <div class="contacts__wrapper">
-                <p class="contacts__left-title">дополнительная информация о прошлых потоках</p>
-                <a class="contacts__right-button" href="https://www.instagram.com/dozen.web/">instagram</a>
+                <p class="contacts__left-title">дополнительная информация о прошлых потоках в актуальном "наставничество".</p>
+                <a class="contacts__right-button button__black" href="https://www.instagram.com/dozen.web/">instagram</a>
             </div>
         </div>
     </section>
@@ -156,6 +170,7 @@
         </div>
     </footer>
 
+    <script src="assets/js/aos.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
 </html>

@@ -101,6 +101,10 @@ body {
   color: #161513;
   text-decoration: none;
   border-bottom: 1px solid #131416;
+  transition: all .15s;
+}
+.header-nav__menu-link:hover {
+  border-bottom: 1px solid transparent;
 }
 
 .header-nav__menu-item + .header-nav__menu-item {
@@ -160,6 +164,7 @@ body {
   margin-bottom: 40px;
   text-transform: uppercase;
 }
+
 
 .intro__inform-button {
   font-size: 16px;
@@ -481,8 +486,55 @@ body {
   color: #F2F1EF;
 }
 
+.opening {
+  padding-bottom: 20px;
+}
+.opening__wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.opening__info-img {
+  width: 35%;
+}
+.opening__info {
+  max-width: 600px;
+}
+.opening__info-title {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.opening__info-descr {
+  max-width: 450px;
+  font-size: 20px;
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+.opening__info-descr span {
+  color: #d03d23;
+}
+.opening__info-descr--last {
+  margin-bottom: 40px;
+}
+.button__black,
+.button__white {
+  transition: all .25s;
+}
+.button__black {
+  border: 1px solid transparent;
+}
+.button__white:hover {
+  background: #161513;
+  color: #fff;
+}
+.button__black:hover {
+  background: transparent;
+  color: #161513;
+  border: 1px solid #161513;
+}
+
 .program {
-  padding: 30px 0;
+  padding-bottom: 30px;
 }
 .program__title {
   background-color: #131313;

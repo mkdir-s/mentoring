@@ -93,6 +93,13 @@
   .program__table-subtitle {
     text-align: center;
   }
+  .program__table-descr {
+    color: #181D31;
+  }
+  .program__table-wrapper {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
 }
 @media (max-width: 780px) {
   .intro__banner {
@@ -151,6 +158,21 @@
   }
   .program {
     padding: 15px 0;
+  }
+  .opening__wrapper {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+  .opening__info {
+    text-align: center;
+  }
+  .opening__info-descr {
+    margin: 0 auto 40px;
+  }
+  .opening__button {
+    display: inline-block;
+    margin-bottom: 50px;
   }
 }
 @media (max-width: 550px) {
@@ -257,6 +279,36 @@
   .price {
     margin-bottom: 60px;
   }
+  .opening__info-img {
+    width: 60%;
+  }
+  .awards__subtitle {
+    margin-bottom: 20px;
+  }
+  .awards__title {
+    font-size: 30px;
+    line-height: 120%;
+  }
+  .awards__subtitle {
+    font-size: 15px;
+  }
+  .awards__item {
+    padding: 20px 35px;
+  }
+  .opening__info-descr {
+    margin: 0 auto 20px;
+  }
+  .price {
+    padding-top: 30px;
+    margin-bottom: 0;
+    padding-bottom: 0px;
+  }
+  .contacts {
+    padding: 30px 0;
+  }
+  .footer {
+    padding: 40px 0 25px;
+  }
 }
 @media (max-width: 400px) {
   .intro__inform-button {
@@ -275,5 +327,8 @@
   }
   .about__item-title {
     font-size: 33px;
+  }
+  .opening__button {
+    font-size: 14px;
   }
 }
