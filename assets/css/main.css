@@ -301,6 +301,7 @@ body {
 }
 .awards-left__inform-subtitle--block {
   display: block;
+  margin-bottom: 15px;
 }
 .awards-left__inform-link {
   font-size: 20px;
@@ -360,11 +361,16 @@ body {
 }
 
 .about__item {
+  height: 180px;
   padding: 23px 72px;
   border: 2px solid #332F29;
   text-align: center;
 }
-
+.about__item-old {
+  font-size: 30px;
+  text-decoration:line-through;
+  color: #d03d23;
+}
 .about__item-title {
   font-size: 50px;
   line-height: 64px;
