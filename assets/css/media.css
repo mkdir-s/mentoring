@@ -1,4 +1,32 @@
 @media (max-width: 920px) {
+  .header__burger {
+    display: block;
+  }
+  .header-nav__menu {
+    position: absolute;
+    top: 0;
+    left: -300%;
+    width: 100%;
+    background-color: #fff;
+    height: 100vh;
+    padding: 100px;
+    background-color: #F2F1EF;
+    flex-direction: column;
+    transition: all .3s ease-in-out;
+  }
+  .header-nav__menu-item + .header-nav__menu-item {
+    margin-left: 0;
+  }
+  .header-nav__menu-link, .header-nav__menu-item {
+    width: 100%;
+    padding: 20px 0;
+  }
+  .header-nav__menu-link {
+    width: 100%;
+    display: block;
+    background-color: #eee;
+    padding: 20px 10px;
+  }
   .intro__wrapper {
     flex-wrap: wrap;
   }
@@ -198,8 +226,10 @@
   .header-nav__menu-item + .header-nav__menu-item {
     margin-top: 20px;
   }
-  .header__button {
-    margin: 0 auto;
+  .header__burger {
+    position: fixed;
+    top: 40px;
+    right: 40px;
   }
   .about__left-title {
     font-size: 32px;
