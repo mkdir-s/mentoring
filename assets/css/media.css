@@ -227,7 +227,8 @@
     margin-top: 20px;
   }
   .header__burger {
-    position: fixed;
+    position: absolute;
+    background-color: transparent;
     top: 40px;
     right: 40px;
   }
