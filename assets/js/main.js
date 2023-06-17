@@ -13,6 +13,10 @@ const swiper = new Swiper('.reviews__slider', {
   pagination: {
     el: '.reviews__swiper-pagination',
   },
+  navigation: {
+    nextEl: '.reviews__swiper-button-next',
+    prevEl: '.reviews__swiper-button-prev',
+  },
   breakpoints: {
     // when window width is >= 320px
     320: {
@@ -22,12 +26,12 @@ const swiper = new Swiper('.reviews__slider', {
     // when window width is >= 480px
     480: {
       slidesPerView: 2,
-      spaceBetween: 30
+      spaceBetween: 30,
     },
     // when window width is >= 640px
     640: {
       slidesPerView: 3,
-      spaceBetween: 40
+      spaceBetween: 40,
     }
   }
 });

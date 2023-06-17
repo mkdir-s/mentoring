@@ -715,6 +715,7 @@ body {
 }
 .reviews__slider img {
   width: 99%;
+  object-fit: cover;
 }
 .reviews__item {
   -webkit-box-shadow: -5px -5px 5px -5px rgba(34, 60, 80, 0.6) inset;
@@ -734,4 +735,17 @@ video {
   width: 100%;
   height: auto;
   max-height: 100%;
+}
+.reviews__swiper-button-prev,
+.reviews__swiper-button-next {
+  color: #E94D35;
+}
+.swiper-button-prev, .swiper-rtl .swiper-button-next {
+  left: -2px;
+}
+.swiper-button-next, .swiper-rtl .swiper-button-prev {
+  right: -2px;
+}
+.reviews__slider {
+  padding: 0 40px;
 }

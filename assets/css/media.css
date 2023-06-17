@@ -202,6 +202,10 @@
     display: inline-block;
     margin-bottom: 50px;
   }
+  .reviews__swiper-button-prev,
+  .reviews__swiper-button-next {
+    display: none;
+  }
 }
 @media (max-width: 550px) {
   .reviews {
