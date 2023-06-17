@@ -704,3 +704,34 @@ body {
   text-align: center;
   font-size: 20px;
 }
+.reviews {
+  padding-bottom: 80px;
+}
+.reviews__title {
+  margin-bottom: 40px;
+}
+.reviews__slider {
+  max-width: 1000px;
+}
+.reviews__slider img {
+  width: 99%;
+}
+.reviews__item {
+  -webkit-box-shadow: -5px -5px 5px -5px rgba(34, 60, 80, 0.6) inset;
+  -moz-box-shadow: -5px -5px 5px -5px rgba(34, 60, 80, 0.6) inset;
+  box-shadow: -5px -5px 5px -5px rgba(34, 60, 80, 0.6) inset;
+}
+.swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+  bottom: 0;
+}
+.reviews__slider-wrapper {
+  padding-bottom: 22px;
+}
+.swiper-pagination-bullet-active {
+  background-color: #E94D35;
+}
+video {
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+}

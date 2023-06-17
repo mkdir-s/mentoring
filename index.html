@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>наставничество</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/media.css">
 </head>
@@ -129,6 +130,43 @@
             <div class="program__button"><a class="program__link button__black" href="program.html">полная программа</a></div>
         </div>
     </section>
+    <section class="reviews" id="reviews">
+        <div class="container">
+            <div class="awards__img"><img src="assets/images/star-icon.svg" alt="star-icon"></div>
+            <h2 class="awards__title reviews__title">отзывы</h2>
+
+            <div class="swiper reviews__slider">
+                <div class="swiper-wrapper reviews__slider-wrapper">
+                  <div class="swiper-slide reviews__swiper-slide reviews__item">
+                    <img src="assets/images/reviews-1.jpg" alt="отзыв первого студента">
+                  </div>
+                  <div class="swiper-slide reviews__swiper-slide reviews__item">
+                    <img src="assets/images/reviews-2.jpg" alt="отзыв второго студента">
+                  </div>
+                  <div class="swiper-slide reviews__swiper-slide reviews__item">
+                    <img src="assets/images/reviews-3.jpg" alt="отзыв третьего студента">
+                  </div>
+                  <div class="swiper-slide reviews__swiper-slide reviews__item">
+                    <video src="assets/videos/review-1.MP4" controls></video>
+                  </div>
+                  <div class="swiper-slide reviews__swiper-slide reviews__item">
+                    <video src="assets/videos/review-2.MP4" controls></video>
+                  </div>
+                  <div class="swiper-slide reviews__swiper-slide reviews__item">
+                    <img src="assets/images/reviews-4.jpg" alt="отзыв четвёртого студента">
+                  </div>
+                  <div class="swiper-slide reviews__swiper-slide reviews__item">
+                    <img src="assets/images/reviews-5.jpg" alt="отзыв пятого студента">
+                  </div>
+                  <div class="swiper-slide reviews__swiper-slide reviews__item">
+                    <img src="assets/images/reviews-6.jpg" alt="отзыв шестого студента">
+                  </div>
+
+                </div>
+                <div class="swiper-pagination reviews__swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
     <section class="price" id="price">
         <div class="container">
             <div class="awards__img"><img src="assets/images/star-icon.svg" alt="star-icon"></div>
@@ -187,6 +225,7 @@
         </div>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="assets/js/aos.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
